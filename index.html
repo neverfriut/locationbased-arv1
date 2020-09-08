@@ -16,12 +16,24 @@
       embedded
       arjs="sourceType: webcam; debugUIEnabled: false;"
     >
+    <!--
       <a-text
         value="This content will always face you."
         look-at="[gps-camera]"
         scale="120 120 120"
         gps-entity-place="latitude: 55.652710; longitude: 12.543398;"
       ></a-text>
+        -->
+        
+      <a-text font="kelsonsans" value="Impossible tracings, impossible pasts, the alliances in our narratives creating ecologies of stories. 
+      Our intergenerational bodies are the chips plowing for nourishment in a landscape of enabling and enablers."
+          color="white" width="4" position="-1 2 4" look-at="[gps-camera]"
+          scale="120 120 120"
+          gps-entity-place="latitude: 55.652710; longitude: 12.543398;"
+          rotation="0 100 0">
+      </a-text>
+              
+
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
   </body>
